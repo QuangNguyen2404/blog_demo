@@ -7,3 +7,5 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+user = User.create!(email: "demo@example.com", password: "123456")
+Post.create!(title: "Seeded Post", body: "This is a post", created_by: user)rails db:seed

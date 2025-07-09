@@ -350,5 +350,3 @@ If you encounter any issues or have questions, please:
 3. Open an issue in the repository
 
 ---
-
-**Happy coding! 🚀**

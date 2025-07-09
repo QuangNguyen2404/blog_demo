@@ -481,23 +481,6 @@ tail -f log/development.log
 tail -f log/test.log
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Run the test suite (`bundle exec rspec`)
-5. Commit your changes (`git commit -m 'Add amazing feature'`)
-6. Push to the branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-If you encounter any issues or have questions, please:
 
 1. Check the troubleshooting section above
 2. Review the test suite for examples

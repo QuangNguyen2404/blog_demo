@@ -14,5 +14,10 @@ Rails.application.routes.draw do
   post "/register", to: "auth#register"
   post "/login",    to: "auth#login"
 
+  # Session management routes
+  post "/sessions", to: "sessions#create"     # Login
+  delete "/sessions", to: "sessions#destroy"  # Logout  
+  get "/sessions", to: "sessions#show"        # Current user info
+
   resources :posts
 end
